@@ -13,7 +13,7 @@ export const useCategoryCRUD = ({ tasks, saveTasks }) => {
     []
   );
 
-  const [categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState(defaultCategories);
   const [removeAcategory, setRemoveACategory] = useState(null);
   const [categoryModal, setCategoryModal] = useState(false);
   const [category, setCategory] = useState({
